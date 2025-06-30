@@ -1,14 +1,17 @@
 {
-  "name": "ratuls-portfolio-server",
+  "name": "server",
   "version": "1.0.0",
-  "type": "module",
-  "main": "api/contact.js",
-  "license": "MIT",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"No tests yet\" && exit 0"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^17.0.0",
+    "express": "^5.1.0",
     "mongodb": "^6.17.0",
     "nodemailer": "^7.0.3"
   }
